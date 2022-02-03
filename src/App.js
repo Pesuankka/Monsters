@@ -36,6 +36,7 @@ render() {
   
   return (
     <div className="App">
+      <h1>Monsters Roledex</h1>
       <SearchBox placeholder='Search monsters' handleChange={this.handleChange}></SearchBox>
       <CardList monsters={filteredMonsters}></CardList>
     </div>
